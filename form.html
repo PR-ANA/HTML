@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number">
+    <input type="text"> the type is by default text 
+    <button>send</button><!--These data are not gone so we have to use form tag-->
+    <br>
+    <hr>
+
+    <fieldset> <!--for the boundry of the form-->
+        <legend>HTML Form</legend><!--for the title of fieldshet-->
+    <form>
+        <label for="a">Enter first name:</label>
+        <input name="fname" type="text" id="a">
+        <hr>
+        <label for="c">Enter middle name:</label>
+        <input type="text" name="mname" id="c">
+        <hr>
+        <label for="b">Enter last name:</label>
+        <input type="text" name="lname" id="b">
+        <hr>
+        <br>
+
+        <label for="age">Enter your age:</label>
+        <input type="number" name="age" id="age" min="1" max="100">
+        <hr><br>
+
+        <!--If fixed input box we can use radio(single value), checkbox (multivalue), select(multivalue)-->
+        Enter your Gender:
+        <input type="radio" name="gender" value="boy"> Male 
+        <input type="radio" name="gender" value="girl"> Female
+        <input type="radio" name="gender" value="other"> Others
+        <hr>
+        <button>Submit</button>
+    </form>
+
+    <table border="1">
+        <tr>
+            <th>S.NO</th>
+            <th>Name of Students</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+
+    add Student
+    <table border="1" cellpadding="20px">
+        <tr>
+            <td>Enter name of student</td>
+            <td><input type="text" name="" id></td>
+        </tr>
+
+        <tr>
+            <td>Enter phone of student</td>
+            <td><input type="text" name="" id></td>
+        </tr>
+
+        <tr>
+            <td>Enter Email of student</td>
+            <td><input type="text" name="" id></td>
+        </tr>
+        <tr>
+            <td>Enter Address of student</td>
+            <td><input type="text" name="" id></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Add studnts</td>
+        </tr>
+    </table>
+</fieldset>
+</body>
+</html>

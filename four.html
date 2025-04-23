@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--method=> Get(show data in url), Post (hide data in url)-->
+    <!--action => after submit where to go-->
+    <form action="" method="get">
+    Email: <input type="email" name="email">
+    <hr>
+    Password: <input type="password" name="password">  
+    <hr> 
+    Country: <select name="country">
+        <option>Nepal</option>
+        <option value="dubai">UAE</option><!--if value is given  then we have to manually give the value otherwise it won't show in the top-->
+        <option>India</option>
+        <option>Korea</option>
+        <option>Japan</option>
+        <option>USA</option>
+        <option>UK</option>
+
+    </select>
+    <hr>
+    Courses: <input type="checkbox" name="courses" value="web"> WebDesign
+    <input type="checkbox" name="courses" value="php"> PHP
+    <input type="checkbox" name="courses" value="python"> Python
+    <input type="checkbox" name="courses" value="django"> Django
+    <input type="checkbox" name="courses" value="ai"> AI
+    <hr>
+    Message: <textarea name="msg" rows="10" cols="40"></textarea>
+    <hr>
+    Color: <input type="color" name="color">
+    <hr>
+    domain: <input type="domain" name="domain">
+    <hr>
+    Range: <input type="range" name="price">
+    <hr>
+    Date: <input type="date" name="date">
+    <hr>
+    Time: <input type="time" name="time">
+    <hr>
+    File: <input type="file" name="file">
+    <hr>
+    Month: <input type="month"  name="month">
+    <hr>
+    Week: <input type="week" name="week">
+    <hr>
+
+    Placeholder: <input type="text" name="n1" placeholder="Enter your full name">
+    <hr>
+    Required: <input type="text" name="n3" required>
+    <hr>
+    Read Only: <input type="text" name="n4" value="nepal" readonly>
+    <hr>
+    hidden: <input type="hidden" name="hide" value="decryption">
+    <hr>
+    Ccounty list: <input type="text" name="countrylist" list="country">
+    <datalist id="country">
+        <option>Nepal</option>
+        <option>India</option>
+        <option>Japan</option>
+        <option>Canada</option>
+        <option>Australia</option>
+    </datalist>
+    <hr>
+    Courses: <select name="study" size="11">
+        <optgroup label="FrontEnd">
+            <option>Html</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>React JS</option>
+            <option>Node JS</option>
+        </optgroup>
+
+        <optgroup label="BackEnd">
+            <option>Python</option>
+            <option>Django</option>
+            <option>Java</option>
+            <option>Php<option>
+        </optgroup>
+    </select>
+    <hr>
+
+    <input type="reset" name="reset">      
+    <button>submit data</button>  
+    <input type="image" src="button.jpeg" width="50" name="img">   
+
+    </form>
+</body>
+</html>
